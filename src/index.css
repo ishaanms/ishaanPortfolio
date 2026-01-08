@@ -1,0 +1,43 @@
+@import "tailwindcss";
+
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Inter:wght@300;400;500;600;700&family=Dancing+Script:wght@400;500;600;700&display=swap');
+
+@theme {
+  --color-beige-50: #FFFEF9;
+  --color-beige-100: #F7F3ED;
+  --color-beige-200: #EDE8E0;
+  --color-beige-300: #E3DDD3;
+  
+  --color-warm-brown: #2B2622;
+  --color-warm-grey: #6B6560;
+  --color-warm-tan: #B8916C;
+  --color-warm-bronze: #8B6F47;
+  --color-warm-ngrey: #8a5a44;
+  
+  --font-family-logo: "Great Vibes", cursive;
+  --font-family-sans: "Inter", system-ui, sans-serif;
+  --font-family-handwriting: "Dancing Script", cursive;
+}
+
+/* Smooth scroll */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #F7F3ED;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #B8916C;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #8B6F47;
+}
